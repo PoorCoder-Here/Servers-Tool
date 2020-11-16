@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textSize="25sp"
+        android:text="Hotel IVY"
+        android:textAlignment="center">
+    </TextView>
+
+    <Spinner
+        android:id="@+id/tabno"
+        android:layout_width="125dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="30dp"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:textAlignment="inherit">
+    </Spinner>
+
+    <Spinner
+        android:id="@+id/itno"
+        android:layout_width="261dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:textAlignment="inherit"></Spinner>
+
+    <Spinner
+        android:id="@+id/itna"
+        android:layout_width="261dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="11dp"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:textAlignment="inherit">
+
+    </Spinner>
+
+    <TextView
+        android:id="@+id/tvpr"
+        android:layout_width="261dp"
+        android:layout_height="60dp"
+        android:hint="Price"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="45dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="17sp"
+        android:textStyle="normal"
+        android:textAlignment="inherit"/>
+
+    <EditText
+        android:id="@+id/etqua"
+        android:layout_width="261dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="-158dp"
+        android:ems="10"
+        android:hint="Quantity"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnadd"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="125dp"
+        android:text="Add" />
+
+    <Spinner
+        android:id="@+id/nav"
+        android:layout_width="98dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="-50dp"
+        android:scrollbarAlwaysDrawVerticalTrack="true"></Spinner>
+
+</LinearLayout>
